@@ -1,5 +1,20 @@
-a = 3.3
-b = 1.1 + 2.2
+# Evaluate True values
+print("*****True values*****")
+print(bool("Hello"))
+print(bool(15))
 
-tolerance = 0.00001
-print(abs(a-b) < tolerance)
+x = "Hello"
+y = '15'
+
+print(bool(x))
+print(bool(y))
+
+# Evaluate False values
+print("*****False values*****")
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
