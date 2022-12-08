@@ -1,20 +1,9 @@
-# Evaluate True values
-print("*****True values*****")
-print(bool("Hello"))
-print(bool(15))
+fruits = ["apple", "pear", "banana"]
 
-x = "Hello"
-y = '15'
+while True:
+  var = input("Enter a fruit: ").lower()
+  if var in fruits:
+    print("Finded")
+  elif var not in fruits:
+    print("Not finded")
 
-print(bool(x))
-print(bool(y))
-
-# Evaluate False values
-print("*****False values*****")
-print(bool(False))
-print(bool(None))
-print(bool(0))
-print(bool(""))
-print(bool(()))
-print(bool([]))
-print(bool({}))
