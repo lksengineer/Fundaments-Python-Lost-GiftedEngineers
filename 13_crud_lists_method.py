@@ -1,13 +1,14 @@
 # CRUD WITH LISTS METHOD
 
 # 1. Create
-numbers = [1, 2, 5, 4, 6]
+numbers = [1, 2, 5, 4, 6, 1, 6, 6, 6, 7, 5]
 
 # 2. Read
 print(numbers)
 print(numbers[1])
 print(numbers[0:4:2])
 print(numbers[-1])
+print(f'Count(7): {numbers.count(7)}')
 
 # 3. Update
 strings = ['hello', 'please', 'you are welcome']
