@@ -5,11 +5,16 @@ print(b)
 print(b[-5:-2])  #Display from -5 to -2
 print(b[::-1])  #Display reversing
 print(b[::2])  #display 2 in 2
+print(b[5:2:-1])  #Display from 5 to 2 inversed
 
 print("\n Strings:")
 #strip()
 a = " Hello world! "
 print(a.strip())  # returns "Hello, World!"
+
+#count()
+print("\b")
+print(f'{b} tiene {b.count("o")} \'o\'')
 
 #upper()
 print(a.upper())

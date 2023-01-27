@@ -1,9 +1,3 @@
-fruits = ["apple", "pear", "banana"]
-
-while True:
-  var = input("Enter a fruit: ").lower()
-  if var in fruits:
-    print("Finded")
-  elif var not in fruits:
-    print("Not finded")
-
+list = [1, 4, 3, 7, 6, 8]
+list.reverse()
+print(list)

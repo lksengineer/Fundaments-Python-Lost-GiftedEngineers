@@ -3,6 +3,7 @@ a = "*"
 
 
 print(f"{a * 8} ROCK, PAPER OR SCISSORS {a * 8}")
+
 user_option = input("\nEnter a option (rock, paper or scissor?): \n").lower()
 print(user_option)
 
