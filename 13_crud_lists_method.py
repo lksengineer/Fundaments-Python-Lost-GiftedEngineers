@@ -1,3 +1,27 @@
+
+
+"""
+List method:
+Python tiene un conjunto de métodos integrados que puede usar en las listas.
+
+Method	Description:
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+
+index()	Returns the index of the first element with the specified value
+
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+"""
+
+
 # CRUD WITH LISTS METHOD
 
 # 1. Create
@@ -61,3 +85,9 @@ print(f'\n pop(): {numbers}')
 numbers.pop(0)
 print(f'\n pop(0): {numbers}')
 
+
+# IN: Check if "apple" is present in the list:
+print("n\IN: Check if 'apple' is present in the list:")
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
