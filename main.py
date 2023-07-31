@@ -1,3 +1,6 @@
-list = [1, 4, 3, 7, 6, 8]
-list.reverse()
+list =  ["A", "B", "C", "D", "E", "F"]
+index = list.index("A")
+print(index)
+
+list[index] = "Z"
 print(list)
