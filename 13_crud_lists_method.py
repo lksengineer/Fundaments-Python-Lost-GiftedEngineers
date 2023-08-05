@@ -1,5 +1,3 @@
-
-
 """
 List method:
 Python tiene un conjunto de métodos integrados que puede usar en las listas.
